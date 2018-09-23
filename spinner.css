@@ -1,3 +1,8 @@
+:root {
+  --red_amount: 255;
+  --green_amount: 15;
+  --blue_amount: 21;
+}
 .apploadingspinner  {
   margin: 100px auto;
   font-size: 25px;
@@ -15,27 +20,27 @@
 @keyframes load5 {
   0%,
   100% {
-    box-shadow: 0em -2.6em 0em 0em #ff0f15, 1.8em -1.8em 0 0em rgba(255,15,21, 0.2), 2.5em 0em 0 0em rgba(255,15,21, 0.2), 1.75em 1.75em 0 0em rgba(255,15,21, 0.2), 0em 2.5em 0 0em rgba(255,15,21, 0.2), -1.8em 1.8em 0 0em rgba(255,15,21, 0.2), -2.6em 0em 0 0em rgba(255,15,21, 0.5), -1.8em -1.8em 0 0em rgba(255,15,21, 0.7);
+    box-shadow: 0em -2.6em 0em 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 1.0), 1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 2.5em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 1.75em 1.75em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 0em 2.5em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -1.8em 1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -2.6em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.5), -1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.7);
   }
   12.5% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255,15,21, 0.7), 1.8em -1.8em 0 0em #ff0f15, 2.5em 0em 0 0em rgba(255,15,21, 0.2), 1.75em 1.75em 0 0em rgba(255,15,21, 0.2), 0em 2.5em 0 0em rgba(255,15,21, 0.2), -1.8em 1.8em 0 0em rgba(255,15,21, 0.2), -2.6em 0em 0 0em rgba(255,15,21, 0.2), -1.8em -1.8em 0 0em rgba(255,15,21, 0.5);
+    box-shadow: 0em -2.6em 0em 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.7), 1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 1.0), 2.5em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 1.75em 1.75em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 0em 2.5em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -1.8em 1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -2.6em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.5);
   }
   25% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255,15,21, 0.5), 1.8em -1.8em 0 0em rgba(255,15,21, 0.7), 2.5em 0em 0 0em #ff0f15, 1.75em 1.75em 0 0em rgba(255,15,21, 0.2), 0em 2.5em 0 0em rgba(255,15,21, 0.2), -1.8em 1.8em 0 0em rgba(255,15,21, 0.2), -2.6em 0em 0 0em rgba(255,15,21, 0.2), -1.8em -1.8em 0 0em rgba(255,15,21, 0.2);
+    box-shadow: 0em -2.6em 0em 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.5), 1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.7), 2.5em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 1.0), 1.75em 1.75em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 0em 2.5em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -1.8em 1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -2.6em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2);
   }
   37.5% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255,15,21, 0.2), 1.8em -1.8em 0 0em rgba(255,15,21, 0.5), 2.5em 0em 0 0em rgba(255,15,21, 0.7), 1.75em 1.75em 0 0em #ff0f15, 0em 2.5em 0 0em rgba(255,15,21, 0.2), -1.8em 1.8em 0 0em rgba(255,15,21, 0.2), -2.6em 0em 0 0em rgba(255,15,21, 0.2), -1.8em -1.8em 0 0em rgba(255,15,21, 0.2);
+    box-shadow: 0em -2.6em 0em 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.5), 2.5em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.7), 1.75em 1.75em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 1.0), 0em 2.5em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -1.8em 1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -2.6em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2);
   }
   50% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255,15,21, 0.2), 1.8em -1.8em 0 0em rgba(255,15,21, 0.2), 2.5em 0em 0 0em rgba(255,15,21, 0.5), 1.75em 1.75em 0 0em rgba(255,15,21, 0.7), 0em 2.5em 0 0em #ff0f15, -1.8em 1.8em 0 0em rgba(255,15,21, 0.2), -2.6em 0em 0 0em rgba(255,15,21, 0.2), -1.8em -1.8em 0 0em rgba(255,15,21, 0.2);
+    box-shadow: 0em -2.6em 0em 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 2.5em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.5), 1.75em 1.75em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.7), 0em 2.5em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 1.0), -1.8em 1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -2.6em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2);
   }
   62.5% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255,15,21, 0.2), 1.8em -1.8em 0 0em rgba(255,15,21, 0.2), 2.5em 0em 0 0em rgba(255,15,21, 0.2), 1.75em 1.75em 0 0em rgba(255,15,21, 0.5), 0em 2.5em 0 0em rgba(255,15,21, 0.7), -1.8em 1.8em 0 0em #ff0f15, -2.6em 0em 0 0em rgba(255,15,21, 0.2), -1.8em -1.8em 0 0em rgba(255,15,21, 0.2);
+    box-shadow: 0em -2.6em 0em 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 2.5em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 1.75em 1.75em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.5), 0em 2.5em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.7), -1.8em 1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 1.0), -2.6em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2);
   }
   75% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255,15,21, 0.2), 1.8em -1.8em 0 0em rgba(255,15,21, 0.2), 2.5em 0em 0 0em rgba(255,15,21, 0.2), 1.75em 1.75em 0 0em rgba(255,15,21, 0.2), 0em 2.5em 0 0em rgba(255,15,21, 0.5), -1.8em 1.8em 0 0em rgba(255,15,21, 0.7), -2.6em 0em 0 0em #ff0f15, -1.8em -1.8em 0 0em rgba(255,15,21, 0.2);
+    box-shadow: 0em -2.6em 0em 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 2.5em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 1.75em 1.75em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 0em 2.5em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.5), -1.8em 1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.7), -2.6em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 1.0), -1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2);
   }
   87.5% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255,15,21, 0.2), 1.8em -1.8em 0 0em rgba(255,15,21, 0.2), 2.5em 0em 0 0em rgba(255,15,21, 0.2), 1.75em 1.75em 0 0em rgba(255,15,21, 0.2), 0em 2.5em 0 0em rgba(255,15,21, 0.2), -1.8em 1.8em 0 0em rgba(255,15,21, 0.5), -2.6em 0em 0 0em rgba(255,15,21, 0.7), -1.8em -1.8em 0 0em #ff0f15;
+    box-shadow: 0em -2.6em 0em 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 2.5em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 1.75em 1.75em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), 0em 2.5em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.2), -1.8em 1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.5), -2.6em 0em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 0.7), -1.8em -1.8em 0 0em rgba(var(--red_amount),var(--green_amount),var(--blue_amount), 1.0);
   }
 }
