@@ -5,11 +5,12 @@
   --lap_time: 1.1s;
 }
 .apploadingspinner  {
-  margin: 100px auto;
   font-size: 25px;
+  border-radius: 50%;
   width: 1em;
   height: 1em;
-  border-radius: 50%;
+
+  margin: 250px auto;
   position: relative;
   text-indent: -9999em;
   -webkit-animation: load5 var(--lap_time) infinite ease;
